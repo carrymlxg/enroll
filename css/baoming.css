@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+p{
+    margin: 0.04rem;
+}
+.coda{
+    width: 100%;
+    height: 90vh;
+    padding: 0.5rem 0.24rem;
+
+}
+.codig{
+    width: 100%;
+    padding: 0.05rem;
+    font-size: 0.36rem;
+    color:#f46f1a;
+    text-align: center;
+}
+.coda1{
+    width: 90%;
+    height: auto;
+    padding: 0.05rem;
+}
+.content-c-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+    font-size: 0.32rem;
+    margin: 0.30rem 0;
+}
+.content-c-1 input{
+    display: block;
+    width: 70%;
+    padding: 0.10rem;
+    box-sizing: border-box;
+    border-radius: 0.05rem;
+    border: 2px solid #ccc;
+}
+input:focus{
+    border: 2px solid #00D5F4;
+}
+#sub{
+    display: block;
+    width: 80%;
+    padding: 0.10rem 0;
+    background-color: #f46f1a;
+    border-radius: 0.10rem;
+    margin: 0.80rem auto;
+    color: #ffffff;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 0.24rem;
+}
+.footera{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    background-color: #ebebeb;
+    padding: 0.10rem 0.24rem;
+    box-sizing: border-box;
+}
+.footea{
+    width: 100%;
+    background-color: #fff5e9;
+    padding: 0.10rem 0.24rem;
+    box-sizing: border-box;
+}
+

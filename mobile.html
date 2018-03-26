@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>报名</title>
+    <script src="./js/rem.js"></script>
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script src="./js/baoming.js"></script>
+    <link rel="stylesheet" href="css/baoming.css">
+</head>
+<body>
+<div class="coda">
+    <div class="codig">
+        <span>报名</span>
+    </div>
+    <div class="coda1">
+        <form id="form1" name="form1" method="post" action="javascript:;" target="_top">
+            <label class="content-c-1" for="username">
+                <span class="conda-c">姓名：</span>
+                <input class="name" name="username" id="username" value="" type="text">
+            </label>
+            <label class="content-c-1" for="paper_sn">
+                <span class="conda-c">证件号码：</span>
+                <input class="pas" name="paper_sn" id="paper_sn" value="" type="text">
+            </label>
+            <label class="content-c-1" for="remark">
+                <span class="conda-c">备注：</span>
+                <input class="name" name="remark" id="remark" value="" type="text">
+
+            </label>
+
+                <input id="sub" class="yzcdengl" onclick="return checkpost();" value="提交" style="border:none;cursor:pointer" type="submit">
+
+
+        </form>
+    </div>
+    <div id="disappare" style="z-index:9999;left: 48.5%;width:70%;position: fixed;background:none;bottom:52%;display: none;">
+        <span style="background: none repeat scroll 0 0 #000; border-radius: 10px;color: #fff; margin: 0 auto;padding: 10px;text-align: center;width: 70%;opacity: 0.6; font-family:Microsoft YaHei;letter-spacing: 1px;font-size: 16px;">用户报名中...</span>
+    </div>
+</div>
+<footer>
+    <div class="footer">
+        <div class="footera">
+            <p class="footeraz">主办单位：山西中智云达信息技术有限公司</p>
+            <p>&copy;版权所有</p>
+        </div>
+    </div>
+    <div class="footea">
+        <div class="footera">
+            <p class="footerav">地址：运城市盐湖区条山街</p>
+            <p>邮政编码：044000</p>
+        </div>
+        <p>联系电话：0359-6391333&nbsp;&nbsp;&nbsp;0359-6300222</p>
+    </div>
+</footer>
+
+</body>
+</html>
